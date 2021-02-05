@@ -1,0 +1,33 @@
+#top{
+    text-align: center;
+    display: inline-block;
+    margin-left: 25%;
+    vertical-align: top;
+    margin-top: 1%;
+}
+
+#logo{
+    padding-bottom: 1%;
+    border-bottom: solid black 2px;
+}
+
+#nav > a{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5%;
+    text-decoration: none;
+    color: #ed702d;
+   
+}
+
+#nav{
+    padding-left: 26%;
+    border: black 2px solid;
+    background-color: black;
+}
+
+#nav > a:hover{
+    background-color: #ed702d;
+    color: black;
+    border-radius: 5px;
+}
