@@ -14,20 +14,33 @@
 #nav > a{
     display: inline-block;
     padding: 5px;
-    margin-left: 5%;
+    margin-left: 3%;
     text-decoration: none;
     color: #ed702d;
-   
+    text-align: center;
+    width: 100px;
 }
 
 #nav{
-    padding-left: 26%;
+    padding-left: 28%;
     border: black 2px solid;
     background-color: black;
 }
 
 #nav > a:hover{
     background-color: #ed702d;
+    width: 100px;
     color: black;
     border-radius: 5px;
+    text-align: center;
+}
+
+#mid_left{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+#mid_right{
+    display: inline-block;
 }
