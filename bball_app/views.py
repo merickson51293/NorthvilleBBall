@@ -10,3 +10,9 @@ def homepage(request):
 
 def whomepage(request):
     return render(request, "whome.html")
+
+def mschedule(request):
+    return render(request, "mschedule.html")
+
+def wschedule(request):
+    return render(request, "wschedule.html")
