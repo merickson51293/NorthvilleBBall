@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+    <div id="logo">
+        <img src="{% static 'NHS Logo Final.png' %}" alt="NHS Logo" style="width:250px; display: inline-block; margin-top: 5px;">
+        <div id="top">
+            <h1>Northville High School Basketball</h1>
+            <h2>Home of the Mustangs</h2>
+        </div>
+    </div>
+    <div id="nav">
+        <a href=""><h2>Home</h2></a>
+        <a href="/schedule"><h2>Schedule</h2></a>
+        <a href="/rosters"><h2>Rosters</h2></a>
+        <a href="/teams"><h2>Teams</h2></a>
+        <a href="/contact"><h2>Contact</h2></a>
+    </div>
+    <div id="mid_left">
+        <h2>Northville Basketball is Back!</h2>
+        <h3>First Games are TONIGHT!</h3>
+        <h4>Freshmen Boys - 4:00pm vs Canton HS</h4>
+        <h4>JV Boys - 5:30pm vs Canton HS</h4>
+        <h4>Varsity Boys - 7:00pm vs Canton HS</h4>
+    </div>
+    <div id="mid_right">
+        <h2>Slideshow</h2>
+    </div>
+</body>
+</html>
